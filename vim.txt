@@ -1,0 +1,74 @@
+----------------------------------------------------------------------
+normal mode --> insert mode
+----------------------------------------------------------------------
+i/I		- insert in same column/start of same line
+a		- insert from next location
+o		- insert from begining of next line
+r		- replace single character
+c{motion}	- delete based on specified cursor movement and enter insert mode
+s		- delete char and enter insert mode
+
+
+----------------------------------------------------------------------
+Normal mode navigation commands
+----------------------------------------------------------------------
+
+w		- forward on word
+b		- backword one word
+gg		- jump to start of file
+G		- jump to end of file
+ctrl-o		- jump back
+ctrl-i		- jump forward
+
+
+----------------------------------------------------------------------
+Normal mode operation
+----------------------------------------------------------------------
+x		- delete character
+dd		- delete line
+
+
+----------------------------------------------------------------------
+Insert mode commands
+----------------------------------------------------------------------
+ctrl p/n		- complete matching previous/next word
+ctrl-o			- enter normal mode for one command
+
+
+----------------------------------------------------------------------
+Text objects
+----------------------------------------------------------------------
+w/W		- small word / big word
+p		- paragraph
+s		- sentence
+b		- block
+
+----------------------------------------------------------------------
+atomic edits
+----------------------------------------------------------------------
+
+verb noun commands
+verb 		- operation to perform (c/d/y)
+noun 		- text objects(w/p/s/b) 
+pronoun 	- more meaningful text objects(i/t)
+
+
+----------------------------------------------------------------------
+tabs and sessions
+----------------------------------------------------------------------
+
+
+:tabedit filename	- to open filename in a new tab
+:gt	gT		- to switch tab
+:mks!			- save session
+vim -S sessionname	- to load the session
+
+
+
+----------------------------------------------------------------------
+Miscelanious
+----------------------------------------------------------------------
+
+:norm ni-	- to insert '-' n times
+ctrl +		- zoom in
+ctrl -		- zoom out
