@@ -1,0 +1,12 @@
+Setup the project:
+      Move to the root directory of the project using "cd" command.
+      Save "init.el" available in the 'resources' directory to the projects root directory.
+      Launch emacs from bash using the command
+      	     "emacs -q -l init.el ."
+	     
+This will create the tags for all the .c and .h file present inside the root directory recursively.
+Load the TAGS table for use.
+You can use the following command to update the tags while working on your project:
+
+M-x update-tags
+    - This will update (recreate and load table of) TAGS based on the current state of the code.
